@@ -47,3 +47,5 @@ extension Album: CustomStringConvertible {
     " year: \(year)"
   }
 }
+
+typealias AlbumData = (title: String, value: String)
